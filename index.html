@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
+    <link rel="stylesheet" href="/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="/img/nav-icon.png" type="image/x-icon">
+    <!-- <slick-slider> -->
+    <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.1/slick/slick-theme.css" />
+    <title>RentCars</title>
+</head>
+
+<body>
+    <div class="hero-img">
+
+        <div class="container">
+            <nav class="navbar  navbar-expand-lg">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <img src="/img/Nav-link.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Become a renter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#rentalDeals">Rental deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#howItWork">How it works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#whyChooseUs">Why choose us</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <button class="btn Sign-in">Sign-in</button>
+                            <button class="btn sign-up">Sign-up</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <section class="hero-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="title">
+                            <h1>Find, book and <br> rent a car <span>Easily</span></h1>
+                            <p>Get a car wherever and whenever you <br> need it with your IOS and Android device.</p>
+                            <div class="app-install">
+                                <a href="https://play.google.com/store/games?hl=en&pli=1"> <img
+                                        src="/img/hero-google-play.png" alt=""></a>
+                                <a href="https://www.apple.com/app-store/"> <img src="/img/hero-apple.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="hero-info">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="location info-content">
+                            <div class="info-icon me-2">
+                                <i class="fa-solid fa-location-dot "></i>
+                            </div>
+                            <div class="content">
+                                <h6>Location</h6>
+                                <p>Search your location</p>
+                            </div>
+                        </div>
+
+                        <div class="pickup-date info-content">
+                            <div class="info-icon me-2">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="content">
+                                <h6>Pickup date</h6>
+                                <p>Tue 15 Nov, 09:00</p>
+                            </div>
+                        </div>
+
+                        <div class="return-date info-content">
+                            <div class="info-icon me-2">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="content">
+                                <h6>Return date</h6>
+                                <p>Thu 17 Nov, 11:00</p>
+                            </div>
+                        </div>
+
+                        <div class="search-btn">
+                            <button class="seach btn">Search</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="working-steps" id="howItWork">
+        <div class="container">
+            <div class="title">
+                <div class="hiw">HOW IT WORK</div>
+                <h1>Rent with following 3 working steps</h1>
+            </div>
+
+            <div class="working-steps-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="work-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Choose location</h5>
+                                <p class="card-text">Choose and find your best car</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="work-icon">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pick-up date</h5>
+                                <p class="card-text">
+                                <p>Select your pick up date and time to book your car</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="work-icon">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Book your car</h5>
+                                <p class="card-text">
+                                <p>Book your car and we will deliver it directly to you</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="brands">
+
+        <div class="brands-slider">
+            <div class="brand-img" style="background-image: url('/img/Audi\ png.png');"></div>
+            <div class="brand-img" style="background-image: url('/img/BMW\ png.png');"></div>
+            <div class="brand-img" style="background-image: url('/img/honda-png.png');"></div>
+            <div class="brand-img" style="background-image: url('/img/jaguar\ png.png');"></div>
+            <div class="brand-img" style="background-image: url('/img/Mercedes\ png.png');"></div>
+            <div class="brand-img" style="background-image: url('/img/nissan\ png.png');"></div>
+        </div>
+    </section>
+
+    <section class="why-choose-us" id="whyChooseUs">
+        <div class="row">
+            <div class="col-md-6">
+            </div>
+
+            <div class="col-md-6">
+                <div class="main-div">
+                    <div class="title">
+                        <div class="wcu">WHY CHOOSE US</div>
+                        <h1>We offer the best experience <br> with our rental deals</h1>
+                    </div>
+                    <div class="facilities">
+                        <div class="best-price-guarantee info">
+                            <div class="wcu-icon"><i class="fa-solid fa-sack-dollar"></i></div>
+                            <div class="content">
+                                <h5>Best price guaranteed</h5>
+                                <p>Find a lower price? We’ll refund you 100% of the difference.</p>
+                            </div>
+                        </div>
+
+                        <div class="Experience driver info">
+                            <div class="wcu-icon"><i class="fa-solid fa-person"></i></div>
+                            <div class="content">
+                                <h5>Experience driver</h5>
+                                <p>Don’t have driver? Don’t worry, we have many experienced driver for you.</p>
+                            </div>
+
+                        </div>
+                        <div class="best-price-guarantee info">
+                            <div class="wcu-icon"><i class="fa-regular fa-clock"></i></div>
+                            <div class="content">
+                                <h5>24 hour car delivery</h5>
+                                <p>Book your car anytime and we will deliver it directly to you.</p>
+                            </div>
+
+                        </div>
+                        <div class="best-price-guarantee info">
+                            <div class="wcu-icon"><i class="fa-regular fa-comment"></i></div>
+                            <div class="content">
+                                <h5>24/7 technical support</h5>
+                                <p>Have a question? Contact Rentcars support any time when you have problem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-rental-deals" id="rentalDeals">
+        <div class="container">
+            <div class="prd-title">
+                <div class="prd">POPULAR RENTAL DEALS</div>
+                <h1>Most popular cars rental deals</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="/img/jaguar-prd.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Jaguar XE L P250</h5>
+                                <h6><i class="fa fa-star star"></i>4.8 <span>(2,436 reviews)</span></h6>
+                                <div class="performance">
+                                    <h6><i class="fa-regular fa-user me-2"></i>4 Passangers</h6>
+                                    <h6><i class="fa-solid fa-diagram-project me-2"></i>Auto</h6>
+                                    <h6><i class="fa-regular fa-snowflake me-2"></i>Air Condition</h6>
+                                    <h6><i class="fa-solid fa-car-side me-2"></i>4 Doors</h6>
+                                </div>
+                                <div class="price">
+                                    <span>Price</span>
+                                    <h6>$1,800 <span>/day</span></h6>
+                                </div>
+                            </div>
+                            <div class="rentNowBtn">
+                                <button class="btn p-btn">Rent Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="/img/Audi-prd.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Audi R8</h5>
+                                <h6><i class="fa fa-star star"></i>4.6 <span>(1,36 reviews)</span></h6>
+                                <div class="performance">
+                                    <h6><i class="fa-regular fa-user me-2"></i>2 Passangers</h6>
+                                    <h6><i class="fa-solid fa-diagram-project me-2"></i>Auto</h6>
+                                    <h6><i class="fa-regular fa-snowflake me-2"></i>Air Condition</h6>
+                                    <h6><i class="fa-solid fa-car-side me-2"></i>2 Doors</h6>
+                                </div>
+                                <div class="price">
+                                    <span>Price</span>
+                                    <h6>$2,100 <span>/day</span></h6>
+                                </div>
+                            </div>
+                            <div class="rentNowBtn">
+                                <button class="btn p-btn">Rent Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="/img/BMW-prd.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">BMW M3</h5>
+                                <h6><i class="fa fa-star star"></i>4.5<span>(2,036 reviews)</span></h6>
+                                <div class="performance">
+                                    <h6><i class="fa-regular fa-user me-2"></i>4 Passangers</h6>
+                                    <h6><i class="fa-solid fa-diagram-project me-2"></i>Auto</h6>
+                                    <h6><i class="fa-regular fa-snowflake me-2"></i>Air Condition</h6>
+                                    <h6><i class="fa-solid fa-car-side me-2"></i>4 Doors</h6>
+                                </div>
+                                <div class="price">
+                                    <span>Price</span>
+                                    <h6>$1,600 <span>/day</span></h6>
+                                </div>
+                            </div>
+                            <div class="rentNowBtn">
+                                <button class="btn p-btn">Rent Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="/img/lamborghini-prd.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Lamborghini Huracan</h5>
+                                <h6><i class="fa fa-star star"></i>4.3 <span>(2,236 reviews)</span></h6>
+                                <div class="performance">
+                                    <h6><i class="fa-regular fa-user me-2"></i>2 Passangers</h6>
+                                    <h6><i class="fa-solid fa-diagram-project me-2"></i>Auto</h6>
+                                    <h6><i class="fa-regular fa-snowflake me-2"></i>Air Condition</h6>
+                                    <h6><i class="fa-solid fa-car-side me-2"></i>2 Doors</h6>
+                                </div>
+                                <div class="price">
+                                    <span>Price</span>
+                                    <h6>$2,300<span>/day</span></h6>
+                                </div>
+                            </div>
+                            <div class="rentNowBtn">
+                                <button class="btn p-btn">Rent Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <button class="btn all-vehicles-btn"> Show all vehicles <i
+                            class="fa-solid fa-arrow-right ms-2"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testi-title">
+            <div class="testimonial">TESTIMONIALS</div>
+            <h1>What peole say about us?</h1>
+        </div>
+
+        <div class="testimonials-slider">
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="image">
+                            <img src="img/person-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="card-body">
+                            <div class="user-experience">
+                                <div class="rating">
+                                    <h1 class="card-title">
+                                        5.0
+                                        <span>stars</span>
+                                    </h1>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="para">
+                                    <p class="card-text">
+                                        “I have been using your services for 3 years. Your service is great, I will
+                                        continue to use your service.”
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="user-info">
+                                <h3>Jenny Wilson</h3>
+                                <h5>From New York, US</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="image">
+                            <img src="img/person-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="card-body">
+                            <div class="user-experience">
+                                <div class="rating">
+                                    <h1 class="card-title">
+                                        5.0
+                                        <span>stars</span>
+                                    </h1>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="para">
+                                    <p class="card-text">
+                                        “I feel very secure when using caretall's services. Your customer care team
+                                        is
+                                        very enthusiastic and the driver is always on time.”
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="user-info">
+                                <h3>Charlie Johnson</h3>
+                                <h5>From New York, US</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="image">
+                            <img src="img/person-2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12">
+                        <div class="card-body">
+                            <div class="user-experience">
+                                <div class="rating">
+                                    <h1 class="card-title">
+                                        4.5
+                                        <span>stars</span>
+                                    </h1>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="para">
+                                    <p class="card-text">
+                                        "Great experience! The website is easy to use, and I found the perfect deal
+                                        within my budget. Will definitely book here again!"
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="user-info">
+                                <h3>Ethan Grant</h3>
+                                <h5>From Las Vegas, US</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download">
+        <div class="main-div">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="download-all-content">
+                        <div class="download-title">
+                            <div class="dnld">Download</div>
+                            <h1>Download Rentcars App for <span>FREE</span></h1>
+                        </div>
+                        <div class="download-content">
+                            <p>For faster, easier booking and exclusive deals.</p>
+                            <div class="download-install">
+                                <a href="https://play.google.com/store/games?hl=en"><img
+                                        src="/img/hero-google-play.png"></a>
+                                <a href="https://www.apple.com/app-store/"><img src="/img/hero-apple.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="downloadBgImg">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <footer class=" my-5">
+                <div class="main-div row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-5">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="list">
+                            <img src="/img/Rentcars.png" alt="">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href=""><i class="fa-solid fa-location-dot  me-2"></i>25566
+                                        Hc
+                                        1, Glenallen, Alaska, 99588, USA</a></li>
+                                <li class="nav-item mb-2"><a href=""><i class="fa-solid fa-phone  me-2"></i>+603 4784
+                                        273
+                                        12</a></li>
+                                <li class="nav-item mb-2"><a href=""><i
+                                            class="fa-solid fa-envelope  me-2"></i>rentcars@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="list">
+                            <h5>Our Product</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="">Career</a></li>
+                                <li class="nav-item mb-2"><a href="">Car</a></li>
+                                <li class="nav-item mb-2"><a href="">Packages</a></li>
+                                <li class="nav-item mb-2"><a href="">Features</a></li>
+                                <li class="nav-item mb-2"><a href="">Priceline</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="list">
+                            <h5>Resources</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="">Download</a></li>
+                                <li class="nav-item mb-2"><a href="">Help Centre</a></li>
+                                <li class="nav-item mb-2"><a href="">Guides</a></li>
+                                <li class="nav-item mb-2"><a href="">Partner Networks</a></li>
+                                <li class="nav-item mb-2"><a href="">Cruises</a></li>
+                                <li class="nav-item mb-2"><a href="">Developer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="list">
+                            <h5>About Rentcars</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="">Why Choose Us</a></li>
+                                <li class="nav-item mb-2"><a href="">Our Story</a></li>
+                                <li class="nav-item mb-2"><a href="">Investor Relations</a></li>
+                                <li class="nav-item mb-2"><a href="">Press Centre</a></li>
+                                <li class="nav-item mb-2"><a href="">Advertise</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="list">
+                            <h5>Follow Us</h5>
+                            <ul class="nav social-icons">
+                                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-white border-2 border-top border-white" />
+                <p class="copy-right">Copyright 2023 ・ Rentcars, All Rights Reserved</p>
+            </footer>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="plugins/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('.brands-slider').slick({
+            dots: false,
+            // arrows: true,
+            infinite: true,
+            autoplay: true,
+            speed: 2000,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1441,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 680,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+
+        $('.testimonials-slider').slick({
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            speed: 2000,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                        arrows: false
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+
+
+</body>
+
+</html>
